@@ -1,17 +1,17 @@
 /*
  * Example of using esp-homekit library to control
- * moition sensor using an Hs501 sensor
+ * motion sensor using an Hs501 sensor
  * This uses an OTA mechanism created by HomeACcessoryKid
  *
  */
 
-#define DEVICE_MANUFACTURER "David B Brown"
+#define DEVICE_MANUFACTURER "Lizzus"
 #define DEVICE_NAME "Motion-Sensor"
-#define DEVICE_MODEL "Basic"
+#define DEVICE_MODEL "ESP-01S"
 #define DEVICE_SERIAL "12345678"
 #define FW_VERSION "1.0"
-#define MOTION_SENSOR_GPIO 12
-#define LED_GPIO 2
+#define MOTION_SENSOR_GPIO 2
+#define LED_GPIO 0
 #define MAX_NAME_LENGTH 63
 
 
@@ -87,7 +87,7 @@ homekit_accessory_t *accessories[] = {
 
 homekit_server_config_t config = {
     .accessories = accessories,
-    .password = "111-11-111"
+    .password = "021-82-017"
 };
 
 void motion_sensor_callback(uint8_t gpio) {

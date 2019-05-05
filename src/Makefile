@@ -5,13 +5,13 @@ EXTRA_COMPONENTS = \
 	extras/http-parser \
 	extras/rboot-ota \
     extras/bearssl \
-    $(abspath ../components/esp-wolfssl) \
+    	$(abspath ../components/esp-wolfssl) \
 	$(abspath ../components/esp-cjson) \
 	$(abspath ../components/esp-homekit) \
    	$(abspath ../libs/led_codes) \
 	$(abspath ../libs/check_wifi) \
 	$(abspath ../libs/ota)  \
-    $(abspath ../libs/http_post)
+    	$(abspath ../libs/http_post)
 
 
 

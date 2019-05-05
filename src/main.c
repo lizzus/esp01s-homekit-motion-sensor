@@ -11,7 +11,7 @@
 #define DEVICE_SERIAL "12345678"
 #define FW_VERSION "1.0"
 #define MOTION_SENSOR_GPIO 2
-#define LED_GPIO 0
+#define LED_GPIO 3
 #define MAX_NAME_LENGTH 63
 
 
